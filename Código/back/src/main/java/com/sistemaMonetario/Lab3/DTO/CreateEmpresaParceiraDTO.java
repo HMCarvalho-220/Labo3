@@ -1,6 +1,9 @@
 package com.sistemaMonetario.Lab3.DTO;
 
-import jakarta.validation.constraints.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 import lombok.Data;
 
 @Data
@@ -23,6 +26,5 @@ public class CreateEmpresaParceiraDTO {
     @NotBlank(message = "Ramo é obrigatório")
     private String ramo;
     
-    @Size(max = 500, message = "Descrição muito longa")
     private String descricao;
 }

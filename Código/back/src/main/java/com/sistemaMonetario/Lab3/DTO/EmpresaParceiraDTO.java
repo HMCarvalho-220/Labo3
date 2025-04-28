@@ -4,12 +4,11 @@ import lombok.Data;
 
 @Data
 public class EmpresaParceiraDTO {
- private Lond id;
- private String nome;
- private String email;
- private String cnpj;
- private String ramo;
- private String descricao;
- private String urlLogo;
+    private Long id;
+    private String nome;
+    private String email;
+    private String cnpj;
+    private String ramo;
+    private String descricao;
+    private String urlLogo;
 }
- 
