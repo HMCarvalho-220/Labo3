@@ -27,7 +27,7 @@ public class EmpresaParceiraService {
         empresa.setNome(dto.getNome());
         empresa.setEmail(dto.getEmail());
         empresa.setCnpj(dto.getCnpj());
-        empresa.setSenha(dto.getSenha()); // Na prática, usar BCrypt
+        empresa.setSenha(dto.getSenha()); 
         empresa.setRamo(dto.getRamo());
         empresa.setDescricao(dto.getDescricao());
 

@@ -26,5 +26,6 @@ public class CreateEmpresaParceiraDTO {
     @NotBlank(message = "Ramo é obrigatório")
     private String ramo;
     
+    @Size(max = 500, message = "Descrição muito longa")
     private String descricao;
 }
